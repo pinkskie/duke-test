@@ -1,0 +1,20 @@
+.footer {
+  background-color: #ECEAEA;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  &__contacts {
+    display: flex;
+    align-items: center;
+    gap:51px;
+    p {
+      display: flex;
+      align-items: center;
+    }
+    img {
+      margin-top: 4px;
+      margin-right: 9px;
+    }
+  }
+}

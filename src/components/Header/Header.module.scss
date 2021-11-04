@@ -1,0 +1,15 @@
+.header {
+  border-bottom: 1px solid #E1E1E1 ;
+}
+.nav__form {
+  display: flex;
+  .input {
+    position: relative;
+    padding:16px;
+    width:294px;
+    border:1px solid #E1E1E1;
+    font-size: 14px;
+    color:#9F9F9F;
+    font-family: 'Merriweather', serif;
+  }
+}

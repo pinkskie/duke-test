@@ -1,0 +1,18 @@
+.button {
+  padding:14px 28px;
+  background-color: #403432;
+  cursor: pointer;
+  color:#fff;
+  border:transparent;
+  font-size: 14px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background-color: #776763;
+  }
+  &:disabled {
+    background-color: #C1B4B1;
+  }
+}
